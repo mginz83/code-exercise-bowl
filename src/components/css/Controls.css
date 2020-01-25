@@ -1,0 +1,33 @@
+.controls {
+  display: flex;
+}
+.controls-left {
+  display: flex;
+  margin: 50px;
+  margin-bottom: 20px;
+}
+.controls-right {
+  margin: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pins-down {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background: #ccc;
+  font-size: 1em;
+}
+
+.pins-down:hover {
+  background: black;
+  color: white;
+}
